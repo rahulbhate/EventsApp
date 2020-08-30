@@ -1,0 +1,12 @@
+{
+  "name": "countdown-ios-android-app",
+  "displayName": "countdown-ios-android-app",
+  "expo": {
+    "name": "countdown-ios-android-app",
+    "slug": "countdown-ios-android-app",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}

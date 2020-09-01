@@ -1,0 +1,198 @@
+{
+    "events": [
+      {
+        "title": "Release RN course",
+        "date": "2021-06-15T00:00:00.000Z",
+        "id": "05dafc66-bd91-43a0-a752-4dc40f039144"
+      },
+      {
+        "title": "Demo a new app",
+        "date": "2021-03-29T13:45:18.000Z",
+        "id": "001c9b6d-00a9-465c-a2d3-afb7176a0a87"
+      },
+      {
+        "title": "Go on holiday",
+        "date": "2021-05-18T08:09:24.000Z",
+        "id": "4cdbe78f-54df-4769-bf3b-02a930161ec5"
+      },
+      {
+        "title": "Come back from holiday",
+        "date": "2021-05-25T10:09:24.000Z",
+        "id": "81066e94-5e2a-410a-986c-67dcc72d3a82"
+      }
+    ],
+      "courses": [
+        {
+          "id": 3,
+          "title": "Creating Reusable React Components",
+          "slug": "react-creating-reusable-components",
+          "picture": "https://placeimg.com/150/150/nature",
+          "price": 20,
+          "authorId": 2,
+          "categoryId": 1
+        },
+        {
+          "id": 6,
+          "title": "Building Applications in React and Flux",
+          "slug": "react-flux-building-applications",
+          "picture": "https://placeimg.com/150/150/fruits",
+          "price": 30,
+          "authorId": 1,
+          "categoryId": 1
+        },
+        {
+          "id": 7,
+          "title": "Clean Code: Writing Code for Humans",
+          "slug": "writing-clean-code-humans",
+          "picture": "https://placeimg.com/150/150/arch",
+          "price": 25,
+          "authorId": 1,
+          "categoryId": 2
+        },
+        {
+          "id": 8,
+          "title": "Architecting Applications for the Real World",
+          "slug": "architecting-applications-dotnet",
+          "picture": "https://placeimg.com/150/150/people",
+          "price": 35,
+          "authorId": 1,
+          "categoryId": 1
+        },
+        {
+          "id": 9,
+          "title": "Becoming an Outlier: Reprogramming the Developer Mind",
+          "slug": "career-reboot-for-developer-mind",
+          "picture": "https://placeimg.com/150/150/nature",
+          "price": 20,
+          "authorId": 1,
+          "categoryId": 1
+        },
+        {
+          "id": 10,
+          "title": "Building Applications with React and Redux",
+          "authorId": 1,
+          "categoryId": 1,
+          "createdAt": 1598778507721,
+          "slug": "building-applications-with-react-and-redux"
+        }
+      ],
+      "authors": [
+        {
+          "id": 1,
+          "name": "Cory House"
+        },
+        {
+          "id": 2,
+          "name": "Scott Allen"
+        },
+        {
+          "id": 3,
+          "name": "Dan Wahlin"
+        }
+      ],
+      "categories": [
+        {
+          "id": 1,
+          "name": "IT & Software"
+        },
+        {
+          "id": 2,
+          "name": "Development"
+        },
+        {
+          "id": 3,
+          "name": "Business"
+        },
+        {
+          "id": 4,
+          "name": "Design"
+        },
+        {
+          "id": 5,
+          "name": "Marketing"
+        },
+        {
+          "id": 6,
+          "name": "Lifestyle"
+        }
+      ],
+      "users": [
+        {
+          "id": 1,
+          "email": "bhate.rahul@gmail.com",
+          "password": "$2b$10$HdSSFWSO5hrpS3WZ2igQYuksMKzn4p8/tN.nuzIneoYBBpwC9j48W",
+          "createdAt": 1588298387843
+        },
+        {
+          "id": 2,
+          "email": "rashasbeentome@gmail.com",
+          "password": "$2b$10$0O7VKCOUeV2aF0FGnd3V.uBT2juJPuEEyjXQ8O0kWeIZIs2b6futu",
+          "createdAt": 1588330351954
+        },
+        {
+          "id": 3,
+          "email": "bina@gmail.com",
+          "password": "$2b$10$0vrjEYt8bldTDCZNV8z4S.FIG7JG8MDJh4DSR21GteSv3vR5BK06q",
+          "createdAt": 1589100998406
+        },
+        {
+          "id": 4,
+          "email": "Veda@yahoo.com",
+          "password": "$2b$10$o0fW3L91xi./7DrZCSebpuUJtGFl2TfyWRN6s.kfKV3JJ5bUfbrpu",
+          "createdAt": 1589101374288
+        },
+        {
+          "id": 5,
+          "email": "yogita@gmail.com",
+          "password": "$2b$10$hp/hZ8UbOLG4sxNmjgOnnuinYDxISTVBaeG54lnRDrV0skNXn/Dk6",
+          "createdAt": 1589107485937
+        },
+        {
+          "id": 6,
+          "email": "tina@gmail.com",
+          "password": "$2b$10$AGP/HgkJSerIbznDjpYX1eR9/dRbym0cgxBKJEa8UHJWl.2mIxGly",
+          "createdAt": 1589114460402
+        },
+        {
+          "id": 7,
+          "email": "prashant@gmail.com",
+          "password": "$2b$10$btj9XXObt1kptAiW8s0g/.0H0MIFUTKH8KNLFQlvEzQOE.BQuX.8i",
+          "createdAt": 1589203981545
+        },
+        {
+          "id": 8,
+          "email": "veda@gmail.com",
+          "profileImage": "2587-BW.jpg",
+          "password": "$2b$10$rlkMVEZJw8MXRQ5GuA0BruUq/DxzP04Ehz.ipGV0tTUfSqAhN0wPa",
+          "createdAt": 1589722406317
+        },
+        {
+          "id": 9,
+          "email": "snehal@gmail.com",
+          "profileImage": "2587-BW.jpg",
+          "password": "$2b$10$hNjB5yvFOwQEODgEoCR1u.aXmd4cFBzn68NCyb6pmiXsxur.QQU4y",
+          "createdAt": 1589865652966
+        },
+        {
+          "id": 10,
+          "email": "nisha@gmail.com",
+          "profileImage": "2587-BW.jpg",
+          "password": "$2b$10$WgO2GrQyu8ZYAdlKKUeb8uOQgtozkO7Hy7pOdjCq7dLYJ.PHEYVKq",
+          "createdAt": 1590328413337
+        },
+        {
+          "id": 11,
+          "email": "aa@gmail.com",
+          "profileImage": "kiwi.jpg",
+          "password": "$2b$10$HlwH5NDvfe7bqzpsAYN6uupA/ORV9vtBM9nryeRFX0KeQn00zfvMi",
+          "createdAt": 1598766759426
+        }
+      ],
+      "Person":[
+        {
+          "id":1,
+          "firstname": "Rahul",
+          "lastname": "Bhate"
+        }
+      ]
+  } 

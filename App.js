@@ -1,21 +1,26 @@
-import { StatusBar } from 'expo-status-bar';
+import 'react-native-gesture-handler';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import EventList from './src/EventList';
+import EventForm from './src/EventForm';
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
+const Stack = createStackNavigator();
 
-export default function App() {
+const  MyStack = () => {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <Stack.Navigator>
+      <Stack.Screen name="Event List" component={EventList} />
+      <Stack.Screen name="Event Form" component={EventForm} />
+    </Stack.Navigator>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+const  App = () =>  {
+  return (
+    <>
+    <NavigationContainer>
+      <MyStack />
+     </NavigationContainer>
+     </>
+  );
+}
+export default App;

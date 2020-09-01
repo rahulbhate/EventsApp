@@ -8,13 +8,14 @@ import {
 import {
   formatDate,
   getCountdownParts,
-} from '../api';
+} from '../../api';
 
 
 
 const styles = StyleSheet.create({
   card: {
     backgroundColor: '#fff',
+    borderRadius: 10,
     flex: 1,
     padding: 10,
     paddingTop: 10,

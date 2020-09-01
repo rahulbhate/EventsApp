@@ -1,6 +1,5 @@
 import React, {useState, useEffect} from 'react';
 import EventCard from './EventCard';
-import EventForm from './EventForm';
 import ActionButton from 'react-native-action-button';
 import { Button, FlatList, Text, StyleSheet} from 'react-native';
 const styles = StyleSheet.create({
@@ -17,7 +16,7 @@ const EventList = ({ navigation }) => {
    navigation.navigate('Event Form');
  }
    useEffect(() => {
-       const event =  require('../db.json').events.map(e => ({
+       const event =  require('../../db.json').events.map(e => ({
         ...e,
         date: new Date(e.date),
       }));
